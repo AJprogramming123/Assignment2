@@ -1,0 +1,87 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Jun 8, 2024, 11:26:55 PM
+    Author     : aj
+*/
+
+
+
+*{
+    background: lightgrey;
+    
+}
+
+body{
+   min-height: 150vh;
+}
+
+
+h3{
+    position: absolute;
+    left: 46%;
+    text-decoration: underline;
+    font-size: 30px;
+    
+}
+
+.freely{
+    position: absolute;
+    left: 20%;
+    top:60%;
+}
+.container {
+    position: relative; /* Ensure the container has position set to relative */
+    width: 600px; /* Example width */
+    height: 400px; /* Example height */
+}
+
+.centered-image {
+    position: absolute;
+    top: 50%;
+    left: 140%;
+    transform: translate(-50%, -50%);
+}
+
+/*------------------------------------------------------------------------ICON BUTTON ON THE TOP------------------------------------------------------------------------*/
+
+.nav ul{           
+    margin: 0;
+}
+
+.main-nav{                                              /*Main function of nav*/
+    text-align: center;
+    font-weight: lighter;                               /* Make font blend in more */
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    font-size: 20px;                                                        /* Adjust the font size as needed */
+}
+
+.main-nav li    /*Make space between the words*/
+{
+    padding: 0 5%;
+
+}
+
+
+
+
+.nav li{/*Moving the list next to each other*/
+display: inline;            /*This will make the elements in line with each other */
+
+}
+
+.nav a{/*For color of the Icons*/
+    display: inline-block;                  /*Similar to inline but does certain things such as add padding and height to elements that inline elements do not*/
+    padding: .5em;
+    color: black;
+    text-decoration:none;
+}
+
+
+.nav a:hover { /*For the hovering of our element*/
+    background-color: rgba(255, 255, 255, .3);
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
