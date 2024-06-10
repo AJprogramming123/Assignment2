@@ -16,14 +16,17 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 h3{
     text-decoration: underline;
     position: absolute;
-    left: 50%;
+    left: 48%;
+    text-decoration: underline;
+    font-size: 30px;
 }
 
 .personas-container {
     display: flex;
     flex-direction: column;
+    text-decoration: underline;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .personas-container div {

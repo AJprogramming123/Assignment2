@@ -8,3 +8,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 */
 
 
+h3{
+    position: absolute;
+    left: 48%;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
