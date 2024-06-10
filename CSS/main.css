@@ -8,7 +8,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 */
 
 
-
+//HI
 *{
     background: lightgrey;
     
@@ -19,9 +19,9 @@ body{
 }
 
 .container {
-    position: relative; /* Ensure the container has position set to relative */
-    width: 600px; /* Example width */
-    height: 400px; /* Example height */
+    position: relative; 
+    width: 600px; 
+    height: 400px; 
 }
 
 .centered-image {
