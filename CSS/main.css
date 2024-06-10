@@ -18,20 +18,6 @@ body{
    min-height: 150vh;
 }
 
-
-h3{
-    position: absolute;
-    left: 46%;
-    text-decoration: underline;
-    font-size: 30px;
-    
-}
-
-.freely{
-    position: absolute;
-    left: 20%;
-    top:60%;
-}
 .container {
     position: relative; /* Ensure the container has position set to relative */
     width: 600px; /* Example width */

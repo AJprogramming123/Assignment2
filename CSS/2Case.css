@@ -1,0 +1,36 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Jun 9, 2024, 8:38:08 PM
+    Author     : aj
+*/
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3{
+    text-decoration: underline;
+    position: absolute;
+    left: 50%;
+}
+
+.personas-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.personas-container div {
+    margin-bottom: 10px;
+}
+
+.personas-container img {
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,52 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Jun 9, 2024, 8:24:53 PM
+    Author     : aj
+*/
+h3 {
+    position: absolute;
+    left: 46%;
+    text-decoration: underline;
+    font-size: 30px;
+    
+    margin-top: -60px; /* Adjust if needed */
+}
+
+#box {
+    width: 1000px;
+    height: 1000px;
+    background-color: #4CAF50;
+    border: 5px solid #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 20%;
+    margin-top: 100px;
+}
+
+.freely {
+    width: 100%; /* Make the image smaller than the box */
+    height: 100%; /* Maintain aspect ratio with a smaller size */
+    object-fit: contain; /* Ensure the image is fully visible */
+    position: relative; /* Position within the box */
+}
+
+#MoodBox{
+    width: 1000px;
+    height: 500px;
+    background-color: #4CAF50;
+    border: 5px solid #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 20%;
+    margin-top: 100px;
+    
+}
