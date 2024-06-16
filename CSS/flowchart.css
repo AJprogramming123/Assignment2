@@ -769,3 +769,109 @@ h3{
     background-color: black;
     
 }
+
+
+
+
+
+/*Purple arrow#2 (AFTER)*/
+#Arrow27{        
+    top: 72%; 
+    left: 38%; 
+    display: flex;
+    align-items: center;
+    transform: rotate(135deg);
+    
+}
+
+.arrow-line27{
+    width: 160px;
+    height: 5px;
+    background-color: black;
+    
+}
+
+#Arrow28{        
+    top: 76.5%; 
+    left: 43%; 
+    display: flex;
+    align-items: center;
+    transform: rotate(160deg);
+    
+}
+
+.arrow-line28{
+    width: 55px;
+    height: 5px;
+    background-color: black;
+    
+}
+
+#Arrow29{        
+    top: 80%; 
+    left: 43%; 
+    display: flex;
+    align-items: center;
+    transform: rotate(220deg);
+    
+}
+
+.arrow-line29{
+    width: 55px;
+    height: 5px;
+    background-color: black;
+    
+}
+
+
+#Arrow30{        
+    top: 83%; 
+    left: 38%; 
+    display: flex;
+    align-items: center;
+    transform: rotate(225deg);
+    
+}
+
+.arrow-line30{
+    width: 160px;
+    height: 5px;
+    background-color: black;
+    
+}
+
+
+/*Arrow 31 (Place Bets - Bet Confirmation)*/
+#Arrow31{        
+    top: 77%; 
+    left: 20%; 
+    display: flex;
+    align-items: center;
+    transform: rotate(180deg);
+    
+}
+
+.arrow-line31{
+    width: 120px;
+    height: 5px;
+    background-color: black;
+    
+}
+
+
+/*Arrow 32 (Bet Confirmation)*/
+#Arrow32{        
+    top: 70%; 
+    left: 7.5%; 
+    display: flex;
+    align-items: center;
+    transform: rotate(270deg);
+    
+}
+
+.arrow-line32{
+    width: 150px;
+    height: 5px;
+    background-color: black;
+    
+}
