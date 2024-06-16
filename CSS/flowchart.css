@@ -86,6 +86,17 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 
 
 
+.arrow-head {
+    width: 0px;
+    height: 0px;
+        border-style: solid;
+        border-width: 20px 0 20px 30px;
+        border-color: transparent transparent transparent black;
+   
+    
+}
+
+
 
 
 
@@ -108,32 +119,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 
 
 
-/*          Arrow In THEORY
-
-.arrow-container{
-    display: flex;
-    align-items: center;
-    
-}
-
-.arrow-line {
-    width: 100px;
-    height: 10px; 
-    background-color: lightgray;
-    margin-right: 10px; 
-}
 
 
-
-.arrow-tip {
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 10px 0 10px 20px; 
-    border-color: transparent transparent transparent lightgray;
-}
-
-*/
 
 /*--------------------------------------------DEFAULT-------------------------------------------------*/
 
@@ -321,4 +308,464 @@ h3{
 #step-end{
     top: 60%;
     left: 7%;
+}
+
+
+
+
+
+/*-------------------------------------------------------*/
+
+
+
+/*--------------------------ARROW-----------------------------*/
+
+/*Arrow 1       (Start - Homepage)*/
+#Arrow1{          
+    top: 8%; 
+    left: 44%; 
+    display: flex;
+    align-items: center;
+    transform: rotate(90deg);
+}
+
+.arrow-line {
+    width: 50px;
+    height: 5px;
+    background-color: black;
+}
+
+
+
+/*Arrow 2 (Homepage - Login/Sign Up)*/
+#Arrow2{        
+    top: 15%; 
+    left: 42.5%; 
+    display: flex;
+    align-items: center;
+    transform: rotate(90deg);
+}
+
+.arrow-line2{
+    width: 100px;
+    height: 5px;
+    background-color: black;
+}
+
+
+/*Arrow 3 (Login/Sign Up - Diamond1)*/
+#Arrow3{        
+    top: 24%; 
+    left: 41.55%; 
+    display: flex;
+    align-items: center;
+    transform: rotate(90deg);
+}
+
+.arrow-line3{
+    width: 120px;
+    height: 5px;
+    background-color: black;
+}
+
+/*Arrow 4 (Promotion - Login/Sign up)*/
+#Arrow4{        
+    top: 19%; 
+    left: 50%; 
+    display: flex;
+    align-items: center;
+    transform: rotate(180deg);
+}
+
+.arrow-line4{
+    width: 400px;
+    height: 5px;
+    background-color: black;
+}
+
+/*Arrow 5 (Homepage - Promotion Page)*/
+.ConnectLine{
+    width: 530px;
+    height: 5px;
+    
+    top: 11.5%;
+    left: 50%;
+    
+    background-color: black;
+    
+}
+
+#Arrow5{        
+    top: 14%; 
+    left: 77.5%; 
+    display: flex;
+    align-items: center;
+    transform: rotate(90deg);
+}
+
+.arrow-line5{
+    width: 160px;
+    height: 5px;
+    background-color: black;
+}
+
+/*Arrow 6 (Diamond1 - Sign up)*/
+#Arrow6{        
+    top: 32%; 
+    left: 57%; 
+    display: flex;
+    align-items: center;
+    
+}
+
+.arrow-line6{
+    width: 300px;
+    height: 5px;
+    background-color: black;
+}
+
+/*Arrow 7 (Sign up - Diamond1)*/
+#Arrow7{        
+    top: 30%; 
+    left: 57%; 
+    display: flex;
+    align-items: center;
+    transform: rotate(180deg);
+}
+
+.arrow-line7{
+    width: 300px;
+    height: 5px;
+    background-color: black;
+}
+
+
+/*Arrow 8 (Diamond1 - Login)*/
+#Arrow8{        
+    top: 38%; 
+    left: 43.8%; 
+    display: flex;
+    align-items: center;
+    transform: rotate(90deg);
+}
+
+.arrow-line8{
+    width: 48px;
+    height: 5px;
+    background-color: black;
+}
+
+/*Arrow 9 (Login - Validate Credentials)*/
+#Arrow9{        
+    top: 41%; 
+    left: 28%; 
+    display: flex;
+    align-items: center;
+    transform: rotate(180deg);
+}
+
+.arrow-line9{
+    width: 170px;
+    height: 5px;
+    background-color: black;
+}
+
+/*Arrow 10 (Validate Credentials - Dashboard)*/
+#Arrow10{        
+    top: 45%; 
+    left: 20.5%; 
+    display: flex;
+    align-items: center;
+    transform: rotate(90deg);
+}
+
+.arrow-line10{
+    width: 53px;
+    height: 5px;
+    background-color: black;
+}
+
+/*Arrow 11 (Dashboard - Betting Page)*/
+#Arrow11{        
+    top: 49%; 
+    left: 28%; 
+    display: flex;
+    align-items: center;
+    
+}
+
+.arrow-line11{
+    width: 70px;
+    height: 5px;
+    background-color: black;
+}
+
+/*Arrow 12 (Betting page - BS&SE)*/
+#Arrow12{        
+    top: 49%; 
+    left: 42%; 
+    display: flex;
+    align-items: center;
+    
+}
+
+.arrow-line12{
+    width: 70px;
+    height: 5px;
+    background-color: black;
+}
+
+/*Arrow 13 (BS&SE - VLOE)*/
+#Arrow13{        
+    top: 49%; 
+    left: 57%; 
+    display: flex;
+    align-items: center;
+    
+}
+
+.arrow-line13{
+    width: 150px;
+    height: 5px;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+/* Purple arrows (INSERT)*/
+#Arrow14{        
+    top: 52%; 
+    left: 60%; 
+    display: flex;
+    align-items: center;
+    transform: rotate(140deg);
+    
+}
+
+.arrow-line14{
+    width: 130px;
+    height: 5px;
+    background-color: black;
+    
+}
+
+
+#Arrow15{        
+    top: 52.5%; 
+    left: 68%; 
+    display: flex;
+    align-items: center;
+    transform: rotate(110deg);
+    
+}
+
+.arrow-line15{
+    width: 55px;
+    height: 5px;
+    background-color: black;
+    
+}
+
+
+
+#Arrow16{        
+    top: 52.5%; 
+    left: 73%; 
+    display: flex;
+    align-items: center;
+    transform: rotate(70deg);
+    
+}
+
+.arrow-line16{
+    width: 55px;
+    height: 5px;
+    background-color: black;
+    
+}
+
+
+#Arrow17{        
+    top: 52%; 
+    left: 77%; 
+    display: flex;
+    align-items: center;
+    transform: rotate(45deg);
+    
+}
+
+.arrow-line17{
+    width: 130px;
+    height: 5px;
+    background-color: black;
+    
+}
+
+
+
+
+
+
+/* Purple arrows (AFTER)*/
+#Arrow18{        
+    top: 60%; 
+    left: 60%; 
+    display: flex;
+    align-items: center;
+    transform: rotate(45deg);
+    
+}
+
+.arrow-line18{
+    width: 130px;
+    height: 5px;
+    background-color: black;
+    
+}
+
+
+#Arrow19{        
+    top: 59.5%; 
+    left: 68%; 
+    display: flex;
+    align-items: center;
+    transform: rotate(70deg);
+    
+}
+
+.arrow-line19{
+    width: 55px;
+    height: 5px;
+    background-color: black;
+    
+}
+
+#Arrow20{        
+    top: 59.5%; 
+    left: 73%; 
+    display: flex;
+    align-items: center;
+    transform: rotate(110deg);
+    
+}
+
+.arrow-line20{
+    width: 55px;
+    height: 5px;
+    background-color: black;
+    
+}
+
+#Arrow21{        
+    top: 60%; 
+    left: 77%; 
+    display: flex;
+    align-items: center;
+    transform: rotate(140deg);
+    
+}
+
+.arrow-line21{
+    width: 130px;
+    height: 5px;
+    background-color: black;
+    
+}
+
+
+
+
+/*Arrow 22 (Bet now - Decision2)*/
+#Arrow22{        
+    top: 69%; 
+    left: 67.3%; 
+    display: flex;
+    align-items: center;
+    transform: rotate(90deg);
+    
+}
+
+.arrow-line22{
+    width: 160px;
+    height: 5px;
+    background-color: black;
+    
+}
+
+
+
+
+
+
+/*Purple arrow #2*/
+#Arrow23{        
+    top: 73%; 
+    left: 57%; 
+    display: flex;
+    align-items: center;
+    transform: rotate(225deg);
+    
+}
+
+.arrow-line23{
+    width: 160px;
+    height: 5px;
+    background-color: black;
+    
+}
+
+
+#Arrow24{        
+    top: 76.5%; 
+    left: 58%; 
+    display: flex;
+    align-items: center;
+    transform: rotate(220deg);
+    
+}
+
+.arrow-line24{
+    width: 55px;
+    height: 5px;
+    background-color: black;
+    
+}
+
+#Arrow25{        
+    top: 80%; 
+    left: 58%; 
+    display: flex;
+    align-items: center;
+    transform: rotate(160deg);
+    
+}
+
+.arrow-line25{
+    width: 55px;
+    height: 5px;
+    background-color: black;
+    
+}
+
+#Arrow26{        
+    top: 83%; 
+    left: 57%; 
+    display: flex;
+    align-items: center;
+    transform: rotate(135deg);
+    
+}
+
+.arrow-line26{
+    width: 160px;
+    height: 5px;
+    background-color: black;
+    
 }
