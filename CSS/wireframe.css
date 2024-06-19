@@ -1,0 +1,228 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Jun 18, 2024, 11:11:06 PM
+    Author     : aj
+*/
+
+/*-------DEFAULT-------------*/
+h3 {
+    position: relative;
+    left: 45%;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+
+.Box {
+    
+    border: 10px solid black;
+    background-color: white;
+  
+   
+}
+
+
+.Box img{
+    width: 100%;
+    height: 100%;
+}
+
+.word{
+    position: absolute;
+    background-color: white;
+    border: 5px solid black;
+    
+    display: flex;
+            align-items: center; /*Pushes items into the center line but not the center of the container*/
+            justify-content: center; /*pushes items into the center of the container but not the center line*/
+            
+            
+    font-size:20px;
+   
+}
+
+
+
+
+
+
+/*Position of boxes*/
+#complete{
+    position: relative;
+    width: 1000px;
+    height: 550px;
+    left: 17%;
+    
+}
+
+
+
+
+.banana{
+    border: none; 
+            height: 5px; 
+            background-color: black; 
+            width: 100%; 
+            margin: 20px auto;
+}
+
+
+
+
+
+
+#container2{
+    position: relative;
+    margin-top: 100px;
+    
+    left: 7%;
+    width: 1630px;
+    height: 2000px;
+    
+    
+}
+
+
+
+
+
+
+
+#complete2{
+    position: absolute;
+    
+    width: 500px;
+    height: 300px;
+    
+    
+}
+
+#word1{
+    width: 100px;
+    height: 50px;
+    top: 17%;
+    left: 12%;
+    
+}
+
+
+
+
+
+#complete3{ 
+    position: absolute;
+    width: 550px;
+    height: 300px;
+    left: 50%;  
+}
+
+#word2{
+    width: 100px;
+    height: 50px;
+    top: 17%;
+    left: 64%;
+    
+    
+}
+
+
+
+
+
+#Movement1{
+    position: absolute;
+    top: 20%;
+    width: 90%;
+}
+
+
+
+
+
+
+#complete4{
+    position: absolute;
+    
+    width: 500px;
+    height: 400px;
+ 
+   
+   top: 25%;
+   
+  
+
+    
+}
+
+#word3{
+    width: 150px;
+    height: 50px;
+    top: 47%;
+    left: 12%;
+    
+    
+    
+}
+
+#complete5{
+    position: absolute;
+    
+    width: 600px;
+    height: 400px;
+ 
+   
+   top: 25%;
+   left: 50%; 
+   
+  
+
+    
+}
+
+#word4{
+    width: 150px;
+    height: 50px;
+    top: 47%;
+    left: 64%;
+    
+    
+}
+
+
+#complete6{
+    position: absolute;
+    
+    width: 550px;
+    height: 400px;
+ 
+   
+   top: 51%;
+  
+
+    
+}
+
+#word5{
+    width: 200px;
+    height: 50px;
+    top: 73%;
+    left: 10%;
+    
+}
+
+
+
+
+#Movement2{
+    position: absolute;
+    top: 76%;
+    width: 90%;
+}
+
+
+
+
+
