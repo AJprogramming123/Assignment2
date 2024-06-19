@@ -1,0 +1,82 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Jun 18, 2024, 3:31:35 PM
+    Author     : aj
+*/
+
+
+/*First Scenario*/
+#Tile1{
+    top: 8%;
+    left: 2%;
+}
+
+#Tile2{
+    top: 35%;
+    left: 2%;
+}
+
+#Tile3{
+    top: 70%;
+    left: 2%;
+    
+}
+
+#Tile4{
+    top: 8%;
+    right: 2%
+    
+}
+
+#Tile5{
+    top: 35%;
+    right: 2%
+    
+}
+
+#Tile6{
+    top: 65%;
+    right: 2%
+    
+}
+
+
+
+
+/*Second Scenario*/
+#Tile7{
+    top: 10%;
+    left: 2%;
+}
+
+#Tile8{
+    top: 39%;
+    left: 2%;
+}
+
+#Tile9{
+    top: 70%;
+    left: 2%;
+    
+}
+
+#Tile10{
+    top: 10%;
+    right: 2%
+    
+}
+
+#Tile11{
+    top: 39%;
+    right: 2%
+    
+}
+
+#Tile12{
+    top: 75%;
+    right: 2%
+    
+}

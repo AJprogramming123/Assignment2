@@ -8,13 +8,24 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 */
 
 /*asdasdadas*/
-*{
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Jun 8, 2024, 11:26:55 PM
+    Author     : aj
+*/
+
+/*asdasdadas*/
+* {
     background: lightgrey;
-    
 }
 
-body{
-   min-height: 150vh;
+body {
+    min-height: 150vh;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    overflow-y: auto;   /* Allow vertical scrolling */
 }
 
 .container {
@@ -25,51 +36,43 @@ body{
 
 .centered-image {
     position: absolute;
-    top: 50%;
-    left: 140%;
-    transform: translate(-50%, -50%);
+    left: 100%;
+    
+    transform: translate(0%, 0%);
 }
 
 /*------------------------------------------------------------------------ICON BUTTON ON THE TOP------------------------------------------------------------------------*/
 
-.nav ul{           
+.nav ul {
     margin: 0;
 }
 
-.main-nav{                                              /*Main function of nav*/
+.main-nav {
     text-align: center;
-    font-weight: lighter;                               /* Make font blend in more */
+    font-weight: lighter;
     border-bottom: 1px solid rgba(255, 255, 255, .3);
-    font-size: 20px;                                                        /* Adjust the font size as needed */
+    font-size: 20px;
 }
 
-.main-nav li    /*Make space between the words*/
-{
+.main-nav li {
     padding: 0 5%;
-
 }
 
-
-
-
-.nav li{/*Moving the list next to each other*/
-display: inline;            /*This will make the elements in line with each other */
-
+.nav li {
+    display: inline;
 }
 
-.nav a{/*For color of the Icons*/
-    display: inline-block;                  /*Similar to inline but does certain things such as add padding and height to elements that inline elements do not*/
+.nav a {
+    display: inline-block;
     padding: .5em;
     color: black;
-    text-decoration:none;
+    text-decoration: none;
 }
 
-
-.nav a:hover { /*For the hovering of our element*/
+.nav a:hover {
     background-color: rgba(255, 255, 255, .3);
 }
+
 /*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-
 /*Testing*/
-
