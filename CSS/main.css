@@ -43,8 +43,17 @@ body {
 
 /*------------------------------------------------------------------------ICON BUTTON ON THE TOP------------------------------------------------------------------------*/
 
-.nav ul {
+
+body, ul {
     margin: 0;
+    padding: 0;
+}
+
+
+.nav ul {
+    display: flex; 
+    list-style: none; 
+    justify-content: space-around; 
 }
 
 .main-nav {
@@ -52,14 +61,15 @@ body {
     font-weight: lighter;
     border-bottom: 1px solid rgba(255, 255, 255, .3);
     font-size: 20px;
+    background-color: lightgrey; 
 }
 
 .main-nav li {
-    padding: 0 5%;
+    padding: 0 1em; 
 }
 
 .nav li {
-    display: inline;
+    display: inline; 
 }
 
 .nav a {
@@ -72,6 +82,7 @@ body {
 .nav a:hover {
     background-color: rgba(255, 255, 255, .3);
 }
+
 
 /*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
