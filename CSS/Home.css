@@ -40,8 +40,75 @@ a{
 {
     position:absolute;
     left: 50%;
-    top: 80%;
+    top: 65%;
     width: 500px;
+
+    
+
+    font-size: 30px;
+
+
+}
+
+/*Luisa*/
+#thirdPortion
+{
+    margin-top: 100px;
+
+    border: 5px solid black;
+    position: relative;
+    
+    width: 440px;
+    left: 15%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        
+        font-size: 50px;
+
+}
+
+#article3
+{
+    position:absolute;
+    left: 50%;
+    top: 130%;
+    width: 500px;
+
+    
+
+    font-size: 30px;
+
+
+}
+
+
+/*Micheal*/
+#fourthPortion
+{
+    margin-top: 100px;
+
+    border: 5px solid black;
+    position: relative;
+    
+    width: 250px;
+    left: 15%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        
+        font-size: 50px;
+
+}
+
+#article4
+{
+    position:absolute;
+    left: 35%;
+    top: 175%;
+    width: 500px;
+
+    
 
     font-size: 30px;
 
@@ -52,14 +119,9 @@ a{
 
 
 
-
-
-
-
-
 #secondBody
 {
-    position:absolute;
+    position: relative;
 
     top: 130%;
     left: 5%;
@@ -77,6 +139,7 @@ h2
     font-size: 50px;
     text-decoration: underline;
 
+    margin-top: 100px;
 }
 
 #secondPortion
